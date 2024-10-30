@@ -1,1 +1,54 @@
 
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-wrapper">
+      <h1>تسجيل الدخول</h1>
+      <form>
+        <label for="username">اسم المستخدم:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">كلمة المرور:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">تسجيل الدخول</button>
+      </form>
+      <p>ليس لديك حساب؟ <a href="#">أنشئ حسابًا</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+.form-wrapper {
+  text-align: center;
+}
+
+/* ... باقي الأنماط ... */
